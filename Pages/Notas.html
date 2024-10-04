@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Notas_Styles/Styles.css">
+    <title>Notas</title>
+</head>
+<body>
+    <h1>Notas</h1>
+    
+    <label for="nomeInput">Nome do Aluno:</label>
+    <input type="text" id="nomeInput" placeholder="Digite o nome do aluno" />
+    
+    <label for="nota1Input">Nota 1:</label>
+    <input type="number" id="nota1Input" placeholder="Digite a primeira nota" step="0.1" />
+    
+    <label for="nota2Input">Nota 2:</label>
+    <input type="number" id="nota2Input" placeholder="Digite a segunda nota" step="0.1" />
+    
+    <label for="nota3Input">Nota 3:</label>
+    <input type="number" id="nota3Input" placeholder="Digite a terceira nota" step="0.1" />
+    
+    <button onclick="calcularMedia()">Calcular Média</button>
+    
+    <p id="resultado"></p> <!-- Parágrafo para exibir o resultado -->
+
+    <script src="/Scripts/Notas_Scripts/Notas.js"></script>
+</body>
+</html>

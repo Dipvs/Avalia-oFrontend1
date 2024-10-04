@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinha o conteúdo ao início */
+    background-color: #484f53; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove margens padrão */
+}
+
+header {
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0; /* Alinha ao topo da tela */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    background-color: #3f4548; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+h1 {
+    margin: 0; /* Remove margens do título */
+}
+
+form {
+    margin: 10px 0; /* Margem para o formulário */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ca2af;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #387e89;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 120px; /* Espaço para o cabeçalho fixo */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: #4ca2af;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* Cor do texto do resultado */
+}

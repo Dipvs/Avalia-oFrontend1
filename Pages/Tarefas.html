@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Tarefas_Styles/Styles.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <input type="text" id="tarefaInput" placeholder="Digite uma tarefa" />
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    
+    <h2>Tarefas:</h2>
+    <ul id="tarefasLista"></ul>
+
+    <h3>Marcar tarefa como concluída:</h3>
+    <input type="number" id="tarefaIndex" placeholder="Número da tarefa a concluir" />
+    <button onclick="concluirTarefa()">Concluir Tarefa</button>
+
+    <script src="/Scripts/Tarefas_Scripts/Tarefas.js"></script>
+</body>
+</html>

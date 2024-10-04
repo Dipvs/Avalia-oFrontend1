@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Idade_Styles/Styles.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <h1>Verificador de Idade</h1>
+
+    <div id="inputContainer">
+        <label for="nomeInput">Nome:</label>
+        <input type="text" id="nomeInput" placeholder="Digite o nome" />
+
+        <label for="idadeInput">Idade:</label>
+        <input type="number" id="idadeInput" placeholder="Digite a idade" />
+        
+        <button onclick="adicionarPessoa()">Adicionar Pessoa</button>
+    </div>
+
+    <button onclick="exibirMaioresDeDezoito()">Ver Pessoas com Mais de 18 Anos</button>
+    
+    <div id="resultado"></div> <!-- Div para exibir resultados -->
+
+    <script src="/Scripts/Idade_Scripts/Idade.js"></script>
+</body>
+</html>

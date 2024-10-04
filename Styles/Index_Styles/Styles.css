@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Muda para o início para permitir que o cabeçalho fique visível */
+    height: 100vh;
+    background-color: #484f53;
+    margin: 0; /* Remove margens padrão do body */
+}
+
+header {
+    background-color: #3f4548; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+    width: 100%; /* Garante que o cabeçalho tenha largura total */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza as colunas de botões */
+    width: 100%; /* Garante que a largura da container é total */
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Coloca os botões em coluna */
+    align-items: center; /* Centraliza os botões na coluna */
+    margin: 10px; /* Espaçamento entre as colunas */
+}
+
+.button {
+    width: 150px; /* Largura fixa para os botões */
+    padding: 20px;
+    margin: 5px; /* Menor margem entre os botões */
+    background-color: #4ca2af;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #387e89;
+}
+
+footer {
+    background-color: #3f4548; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Para posicionamento do rodapé */
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, p {
+    margin: 0; /* Remove margens padrão */
+    padding: 5px; /* Adiciona um pouco de espaço */
+}
